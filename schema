@@ -1,0 +1,75 @@
+Phase
+———
+id: objId
+name: Phase 1 - Begin Data Collection
+runId: 1
+groups: //obj ids of the groups used in this Phase, everyone is in the Public group
+
+I'm thinking we want to know when kids change groups (for data analysis later on), so i was thinking of an ‘association’.
+
+User
+———
+id: objId
+name: “Alessandro”
+group_associations: // ids of the group association objs
+runId: //what run is this user associated with
+
+
+Group
+— — —
+id: objId
+name: “Red Group”
+time_created: timestamp
+
+
+GroupAssociation
+— — —
+id: objId
+groupId: //objectId of the group
+userId: //objId of user
+time_entered: //the timestamp when they join the group
+time_exited: //the timestamp when they join the group
+
+[
+  {
+    "id": 0,
+    "name": "derek",
+    "runId": 1
+  },
+  {
+    "id": 1,
+    "name": "manny",
+    "runId": 1
+  },
+  {
+    "id": 2,
+    "name": "rusty",
+    "runId": 1
+  },
+  {
+    "id": 3,
+    "name": "price",
+    "runId": 1
+  },
+  {
+    "id": 4,
+    "name": "tanaka",
+    "runId": 1
+  },
+  {
+    "id": 5,
+    "name": "derek",
+    "runId": 1
+  },
+  {
+    "id": 6,
+    "name": "jacob",
+    "runId": 1
+  },
+  {
+    "id": 7,
+    "name": "sally",
+    "runId": 1
+  }
+]
+http://www.json-generator.com/api/json/get/cfwdOOndua?indent=2
