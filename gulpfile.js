@@ -143,16 +143,16 @@ gulp.task('copy-nutella', function () {
     .pipe($.size({title: 'copy-nutella'}));
 });
 
-//// Copy All Files At The Root Level (app)
-//gulp.task('copy-nutella', function () {
-//  var app = gulp.src([
-//    'dist/**'], {
-//    dot: true
-//  }).pipe(gulp.dest('/Users/aperritano/Box Sync/dev/research/nutella/wallcology/interfaces/wallscope-admin-interface'));
-//
-//  return merge(app)
-//    .pipe($.size({title: 'copy-nutella'}));
-//});
+// Copy All Files At The Root Level (app)
+gulp.task('copy-nutella', function () {
+  var app = gulp.src([
+    'dist/**'], {
+    dot: true
+  }).pipe(gulp.dest('/Users/aperritano/Box Sync/dev/research/nutella/wallcology/interfaces/wallcology-usertools'));
+
+  return merge(app)
+    .pipe($.size({title: 'copy-nutella'}));
+});
 
 // Copy Web Fonts To Dist
 gulp.task('fonts', function () {

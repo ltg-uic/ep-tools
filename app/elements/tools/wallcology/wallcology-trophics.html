@@ -5,7 +5,7 @@
   <!-- 	<link href="../bower_components/paper-button/paper-button.html" rel="import"> -->
 </head>
 
-<dom-module id="wallcology-species" attributes="tags">
+<dom-module id="wallcology-trophics" attributes="tags">
   <style>
 
     :host {
@@ -50,7 +50,7 @@
   </style>
   <template>
     <paper-material elevation="0" class="vcontainer">
-      <h2 class="title">Species for <span>{{currentHabitat.name}}</span></h2>
+      <h2 class="title">Trophics for <span>{{currentHabitat.name}}</span></h2>
       <!--<div class="container">-->
       <div class="pink horizontal layout">
       <wallcology-bugselector selected-bugs="{{selectedBugs}}" current-habitat="{{currentHabitat}}"></wallcology-bugselector>
@@ -76,7 +76,7 @@
 <script>
   // element registration
   Polymer({
-    is: 'wallcology-species',
+    is: 'wallcology-trophics',
 
     // add properties and methods on the element's prototype
     properties: {

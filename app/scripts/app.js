@@ -39,6 +39,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   //});
 
 
+  app.showAlert = function() {
+    console.log('HE IAM A ALERT');
+  };
+
+
   app.displayInstalledToast = function() {
     document.querySelector('#caching-complete').show();
   };
