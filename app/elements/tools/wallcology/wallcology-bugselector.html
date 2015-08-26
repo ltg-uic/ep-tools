@@ -56,14 +56,13 @@
   <div class="horizontal layout">
 
     <template is="dom-repeat" items="{{currentHabitat.bugs}}">
-      <div id=""key"><paper-button toggles on-active-changed="toggleTapped" id="{{item}}"><iron-icon class="bug" icon="{{iconColor(item)}}"></iron-icon></paper-button></div>
+      <div id="key"><paper-button toggles on-active-changed="toggleTapped" id="{{item}}"><iron-icon class="bug" icon="{{iconColor(item)}}"></iron-icon></paper-button></div>
     </template>
 
   </div>
 
 
   </template>
-</dom-module>
 
 <script>
   // element registration
@@ -81,7 +80,6 @@
       selectedBugs: {
         type: Array,
         notify: true,
-        value: []
       },
       currentHabitat: {
         type: Object,
@@ -107,7 +105,7 @@
 
     },
     selectedBugsChanged: function (changeRecord) {
-
+      console.log('SELECTED BUGSELECTOR: NEW' + changeRecord);
       if (changeRecord.value !== null && this.selectedBugs[0] !== null) {
       }
     },
@@ -151,3 +149,4 @@
     }
   });
 </script>
+</dom-module>
