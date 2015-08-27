@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- 	<link href="../bower_components/iron-input/iron-input.html" rel="import"> -->
-  <!-- 	<link href="../bower_components/paper-button/paper-button.html" rel="import"> -->
-</head>
-
-<dom-module id="tool-app">
+<dom-module id="test-app">
   <style>
 
     :host {
@@ -76,6 +69,13 @@
   </style>
   <template>
 
+    <iron-ajax id="configAjax"
+               contentType="application/json"
+               url="http://beta.json-generator.com/api/json/get/4JmNhZts"
+               params=""
+               handle-as="json"
+               on-response="handleConfigurationResponse" loading="{{loading}}" method="GET" auto verbose>
+    </iron-ajax>
     <iron-ajax id="habitatAjax"
                contentType="application/json"
                url="http://beta.json-generator.com/api/json/get/NkcQCTno"
@@ -87,6 +87,8 @@
 
 
     <paper-toolbar hidden="{{!enabled}}" class="medium-tall" style$="{{generateHabitatColor(selectedHabitatId)}}">
+      <span class="title-heading flex">{{toCompleteHeading(currentUserConfiguration.name)}}</span>
+
       <paper-dropdown-menu label="All Habitats">
         <paper-menu id="menu" class="dropdown-content" selected="{{selectedHabitatId}}" attr-for-selected="id">
           <template is="dom-repeat" items="[[habitats]]" as="habitat">
@@ -94,89 +96,30 @@
           </template>
         </paper-menu>
       </paper-dropdown-menu>
-
       <paper-icon-button icon="image:camera-alt" on-tap="showCamera"></paper-icon-button>
-
-
-
-      <paper-tabs selected="{{selected}}" class="bottom self-end tab-tweak">
-        <template id="tab-title" is="dom-repeat" items="{{currentUserConfiguration.apps}}">
-
-          <template is="dom-if" if="{{checkTab(item,'trophics')}}">
-            <paper-tab><span>{{toUpperCase(item)}}</span></paper-tab>
-          </template>
-
-
-
-
-        </template>
+      <paper-tabs selected="0" class="bottom self-end tab-tweak">
+            <paper-tab><span>D3</span></paper-tab>
       </paper-tabs>
-
     </paper-toolbar>
-
-
-
-    <iron-pages selected="{{selected}}">
-
-      <template id="tab-body" is="dom-repeat" items="{{currentUserConfiguration.apps}}">
-
-
-        <template is="dom-if" if="{{checkTab(item,'trophics')}}">
-          <div><wallcology-trophics current-habitat="{{currentHabitat}}"></wallcology-trophics></div>
-        </template>
-
-        <!--<template is="dom-if" if="{{checkTab(item,'species')}}">-->
-        <!--<div><wallcology-species current-habitat="{{currentHabitat}}" tags="{{users}}"></wallcology-species></div>-->
-        <!--</template>-->
-
-        <!--<template is="dom-if" if="{{checkTab(item,'population')}}">-->
-        <!--<div><wallcology-population current-habitat="{{currentHabitat}}"></wallcology-population></div>-->
-        <!--</template>-->
-
-        <!--<template is="dom-if" if="{{checkTab(item,'relationships')}}">-->
-        <!--<div><wallcology-relationships></wallcology-relationships></div>-->
-        <!--</template>-->
-
-        <!--<template is="dom-if" if="{{checkTab(item,'wallscope')}}">-->
-        <!--<div><wallcology-scope></wallcology-scope></div>-->
-        <!--</template>-->
-
-        <!--<template  is="dom-if" if="{{checkTab(item,'controls')}}">-->
-        <!--<div><wallcology-control></wallcology-control></div>-->
-        <!--</template>-->
-
-      </template>
-
+    <iron-pages selected="0">
+        <div><wallcology-population current-habitat="{{currentHabitat}}"></wallcology-population></div>
     </iron-pages>
   </template>
 
   <script>
     // element registration
     Polymer({
-      is: 'tool-app',
+      is: 'test-app',
 
       // add properties and methods on the element's prototype
       properties: {
         // declare properties for the element's public API
-        loading: {
-          type: Boolean,
-          readOnly: true,
-          notify: true,
-        },
         users: {
           type: Array,
           notify: true,
           value: []
         },
-        choices: {
-          type: Array,
-          notify: true,
-          value: []
-        },
-        displayApps: {
-          type: Array,
-          notify: true
-        },
+
         configurations: {
           type: Array,
           notify: true,
@@ -195,11 +138,6 @@
           type: Object,
           notify: true,
           value: {}
-        },
-        enabled: {
-          type: Boolean,
-          notify: true,
-          value: false
         },
         selectedHabitatId: {
           type: String,
@@ -287,14 +225,7 @@
       handleConfigurationResponse: function (e) {
         console.log(this.$.configAjax.lastResponse + e);
         this.configurations = this.$.configAjax.lastResponse;
-        for (var i = 0; i < this.configurations.length; i++) {
-          console.log(this.configurations[i]);
-
-        }
-      },
-      showCamera: function(e) {
-        console.log('toggle camera: ' + e);
-        this.$.alert.toggle();
+        this.currentUserConfiguration =  this.configurations[0];
       },
       toCompleteHeading: function(userString){
         if( userString !== undefined ) {
@@ -316,10 +247,6 @@
         this.configurations = [];
         this.selected = 0;
       },
-      attributeChanged: function (name, type) {
-        console.log(this.localName + '#' + this.id + ' attribute ' + name +
-          ' was changed to ' + this.getAttribute(name) + type);
-      }
     });
   </script>
 </dom-module>
