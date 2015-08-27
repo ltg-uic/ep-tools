@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef693669-ea00-49e4-aeac-4221785cd4a0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/elements/views/pages-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/elements/views/phase-item.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/elements/views/phase-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/elements/views/roster-item.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/elements/views/roster-list.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/elements/test/test-app.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/elements.html" afterPath="$PROJECT_DIR$/app/elements/elements.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/main/tool-app.html" afterPath="$PROJECT_DIR$/app/elements/main/tool-app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/tag-filter.html" afterPath="$PROJECT_DIR$/app/elements/tools/tag-filter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-bugselector.html" afterPath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-bugselector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-control.html" afterPath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-d3.html" afterPath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-d3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-relationships.html" afterPath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-relationships.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-scope.html" afterPath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-scope.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-species.html" afterPath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-species.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html" afterPath="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index1.html" afterPath="$PROJECT_DIR$/app/index1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
     </list>
     <ignored path="polymer-starter-kit-1.0.2.iws" />
@@ -38,56 +29,88 @@
     <favorites_list name="polymer-starter-kit-1.0.2" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7521843">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="wallcology-d3.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-d3.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="3.8169014">
-                  <caret line="301" column="24" selection-start-line="301" selection-start-column="24" selection-end-line="301" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wallcology-bugselector.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-bugselector.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.875">
-                  <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="92" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="wallcology-species.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-species.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.375">
-                  <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wallcology-population.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-population.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31924883">
-                  <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="wallcology-d3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-d3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-75.0">
+              <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallcology-bugselector.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-bugselector.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-31.875">
+              <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="92" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallcology-population.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-population.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-38.5">
+              <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tool-app.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/elements/main/tool-app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="18.0">
+              <caret line="119" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallcology-trophics.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.375">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.916666">
+              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-dialog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/elements/dialog/user-dialog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="81" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-app.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/elements/test/test-app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14272122">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/elements/my-list/my-list.html" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/scripts/helpers.js" />
         <option value="$PROJECT_DIR$/app/styles/bug.css" />
         <option value="$PROJECT_DIR$/app/styles/custom-styles.html" />
@@ -139,7 +160,6 @@
         <option value="$PROJECT_DIR$/dist/elements/tools/wallcology/wallcology-bugselector.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/test.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-relationship.html" />
         <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-population.html" />
         <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-control.html" />
@@ -147,13 +167,16 @@
         <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-scope.html" />
         <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-relationships.html" />
         <option value="$PROJECT_DIR$/app/elements/tools/tag-filter.html" />
-        <option value="$PROJECT_DIR$/app/elements/main/tool-app.html" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/app/elements/elements.html" />
         <option value="$PROJECT_DIR$/app/elements/dialog/user-dialog.html" />
-        <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html" />
         <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-bugselector.html" />
         <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-d3.html" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/elements/main/tool-app.html" />
+        <option value="$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html" />
+        <option value="$PROJECT_DIR$/app/elements/elements.html" />
+        <option value="$PROJECT_DIR$/app/index1.html" />
+        <option value="$PROJECT_DIR$/app/elements/test/test-app.html" />
       </list>
     </option>
   </component>
@@ -256,9 +279,10 @@
     </gulpfiles>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="x" value="82" />
+    <option name="y" value="182" />
+    <option name="width" value="1941" />
+    <option name="height" value="1195" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -443,56 +467,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paper-input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -581,6 +555,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ep-tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ep-tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -612,13 +608,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../phd/web_site/evl-site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../phd/course_work/7. Fall 2015/CS522 - HCI/code/hellod3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="false" />
     <property name="editor.config.accepted" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="pop&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-population.html&#10;spe&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-species.html&#10;wall&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-bugselector.html&#10;pap&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-textarea.html&#10;too&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;user&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/dialog/user-dialog.html&#10;PaperIN&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-input-container.html&#10;paper&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-textarea.html&#10;to&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;el&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;E&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;To&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;elem&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;index&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/index.html&#10;wa&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-scope.html&#10;wal&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-scope.html&#10;inde&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/index.html&#10;ele&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;app.js&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/scripts/app.js&#10;IronButtonState&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/iron-behaviors/iron-button-state.html&#10;paper-button&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-behaviors/paper-button-behavior.html&#10;paper-toggle&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-toggle-button/paper-toggle-button.html&#10;iron-ic&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/iron-icon/iron-icon.html&#10;gulp&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/gulpfile.js&#10;tool&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;paper-inpu&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-input-container.html&#10;paper-dr&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dropdown-menu/paper-dropdown-menu.html&#10;paper-tool&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-toolbar/paper-toolbar.html&#10;U&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/dialog/user-dialog.html&#10;simp&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dialog-behavior/demo/simple-dialog.html&#10;paper-dialog.cs&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dialog-behavior/paper-dialog-common.css&#10;paper-dial&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dialog/paper-dialog.html&#10;ros&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/nutella-user-admin/app/elements/views/roster-list.html&#10;app&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/nutella-user-admin/app/scripts/app.js&#10;ind&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/index.html&#10;packa&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/package.json&#10;gul&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/gulpfile.js&#10;add&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/elements/dialog/wall-addbug.html&#10;a&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/elements/dialog/wall-addbug.html&#10;scopes&#9;null&#9;null&#10;app.&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/scripts/app.js&#10;my&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/elements/my-list/my-list.html&#10;them&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/styles/app-theme.html&#10;obs&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/bower_components/observe-js/src/observe.js&#10;bug&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/styles/bug.css&#10;main&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/styles/main.css&#10;dial&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/bower_components/paper-dialog-behavior/demo/simple-dialog.html&#10;in&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/index.html&#10;app-&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/styles/app-theme.html&#10;fi&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/bower_components/polymer-filters/filter-capitalize.js" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/dialog/user-dialog.html&#10;app&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;elem&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;in&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/index.html&#10;too&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;el&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;grid&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/grid-element/grid-element.html&#10;pop&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-population.html&#10;spe&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-species.html&#10;wall&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-bugselector.html&#10;pap&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-textarea.html&#10;PaperIN&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-input-container.html&#10;paper&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-textarea.html&#10;to&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;E&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;To&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;index&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/index.html&#10;wa&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-scope.html&#10;wal&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/tools/wallcology/wallcology-scope.html&#10;inde&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/index.html&#10;ele&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/elements.html&#10;app.js&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/scripts/app.js&#10;IronButtonState&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/iron-behaviors/iron-button-state.html&#10;paper-button&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-behaviors/paper-button-behavior.html&#10;paper-toggle&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-toggle-button/paper-toggle-button.html&#10;iron-ic&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/iron-icon/iron-icon.html&#10;gulp&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/gulpfile.js&#10;tool&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/main/tool-app.html&#10;paper-inpu&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-input/paper-input-container.html&#10;paper-dr&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dropdown-menu/paper-dropdown-menu.html&#10;paper-tool&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-toolbar/paper-toolbar.html&#10;U&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/app/elements/dialog/user-dialog.html&#10;simp&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dialog-behavior/demo/simple-dialog.html&#10;paper-dialog.cs&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dialog-behavior/paper-dialog-common.css&#10;paper-dial&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/ep-tools/bower_components/paper-dialog/paper-dialog.html&#10;ros&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/nutella-user-admin/app/elements/views/roster-list.html&#10;ind&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/index.html&#10;packa&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/package.json&#10;gul&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/gulpfile.js&#10;add&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/elements/dialog/wall-addbug.html&#10;a&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/elements/dialog/wall-addbug.html&#10;scopes&#9;null&#9;null&#10;app.&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/scripts/app.js&#10;my&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/elements/my-list/my-list.html&#10;them&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/styles/app-theme.html&#10;obs&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/bower_components/observe-js/src/observe.js&#10;bug&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/styles/bug.css&#10;main&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/app/styles/main.css&#10;dial&#9;FILE&#9;file:///Users/aperritano/Box Sync/dev/research/polymer/wallcology-admin/bower_components/paper-dialog-behavior/demo/simple-dialog.html" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -765,17 +761,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="82" y="182" width="1941" height="1195" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2867355" sideWeight="0.41741356" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28752643" sideWeight="0.5825864" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28752643" sideWeight="0.4238156" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125" sideWeight="0.5761844" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4878361" sideWeight="0.6610289" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22222222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11523688" sideWeight="0.3389711" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25480154" sideWeight="0.3389711" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.4941349" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15581098" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3175416" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39909297" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -834,70 +830,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html</url>
+          <line>292</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower_components/paper-toolbar/paper-toolbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/iron-flex-layout/classes/iron-flex-layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25936884">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036347516">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/iron-icon/test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/iron-icon/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/iron-icon/hero.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/iron-icon/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3986711">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/iron-icon/test/iron-icon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.25">
@@ -1032,19 +976,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/nutella_lib.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.75">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1115,27 +1052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.411765">
-          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/paper-input/all-imports.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,62 +1078,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="225.0">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-species.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.099844">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/grid-element/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8306011">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/grid-element/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049342107">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/grid-element/grid-element.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/iron-grid/demo/colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9203186">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5596708">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/iron-grid/iron-grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5943396">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/iron-grid/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16981132">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/dialog/user-dialog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/main/tool-app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="238" column="14" selection-start-line="238" selection-start-column="14" selection-end-line="238" selection-end-column="14" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="81" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-bugselector.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.875">
+        <state vertical-scroll-proportion="-31.875">
           <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="92" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-species.html">
+    <entry file="file://$PROJECT_DIR$/app/elements/elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.375">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5596708">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-population.html">
+    <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-trophics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31924883">
-          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+        <state vertical-scroll-proportion="-24.375">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-d3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8169014">
-          <caret line="301" column="24" selection-start-line="301" selection-start-column="24" selection-end-line="301" selection-end-column="24" />
+        <state vertical-scroll-proportion="-75.0">
+          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.916666">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/tools/wallcology/wallcology-population.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.5">
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/main/tool-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.0">
+          <caret line="119" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/elements/test/test-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14272122">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
           <folding />
         </state>
       </provider>
