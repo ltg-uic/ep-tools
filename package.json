@@ -34,5 +34,12 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.1.0",
+    "jscs-jsdoc": "^1.1.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1",
+    "polybuild": "^1.0.5"
   }
 }

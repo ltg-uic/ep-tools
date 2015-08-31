@@ -18,7 +18,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   ///* jshint undef: true, unused: true */
   ///* global NUTELLA */
-  //var nutella = NUTELLA.init('127.0.0.1', 'wallcology', 'default', 'wallcology_admin',
+  //var nutella = NUTELLA.init('ltg.evl.uic.edu', 'wallcology', 'default', 'store_relationships',
   //  function(success) {
   //    if (success) {
   //      console.log('Successfully connected nutella!');
@@ -68,6 +68,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     //});
       // imports are loaded and elements have been registered
   });
+
+
+  //window.logAndContinue = function() {
+  //  var missing = Polymer.waitingFor();
+  //  if (missing.length) {
+  //    missing.forEach(function(el) {
+  //      console.warn('Waiting for: ' + el.getAttribute('name'));
+  //    });
+  //    console.warn('Forcing element registration.');
+  //    Polymer.forceReady();
+  //  }
+  //}
 
 
 })(document);
